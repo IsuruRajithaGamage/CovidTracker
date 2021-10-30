@@ -5,9 +5,18 @@ public class LocationStatus {
     private String state;
     private String country;
     private int latestTotalCases;
+    private int comparetoLastDay;
 
     public String getState() {
         return state;
+    }
+
+    public int getComparetoLastDay() {
+        return comparetoLastDay;
+    }
+
+    public void setComparetoLastDay(int comparetoLastDay) {
+        this.comparetoLastDay = comparetoLastDay;
     }
 
     public void setState(String state) {
